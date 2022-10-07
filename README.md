@@ -1,6 +1,6 @@
 # visual-odom
 
-An attempt at implementing visual odometry in Python. Very early stages: just takes two images, `t.jpg` and `t+1.jpg`, and computes how main features have shifted between the two images. The next step would be to infer a change in the camera's position based on this change in apparent position of main features.
+An start at implementing visual odometry in Python. Currently takes two similar images and computes how main features have shifted between the two images. The next step would be to infer a change in the camera's position based on this change in apparent position of main features.
 
 Written in Python. Uses NumPy, OpenCV, and Matplotlib. I used [this blog](https://avisingh599.github.io/vision/monocular-vo/) to learn more about visual odometry and how it might be implemented in code.
 
